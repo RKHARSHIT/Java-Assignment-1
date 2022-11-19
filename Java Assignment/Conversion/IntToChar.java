@@ -5,7 +5,8 @@ public class IntToChar
 {  
   int a=65;  
   char c=(char)a;  
-  System.out.println(a);  
+
+  System.out.println(c);  
 
 }
 
