@@ -43,4 +43,10 @@ public class binarySearch {
             System.out.println("Number not found");
         }
     }
+    public static void main(String[] args){
+        Solution s = new Solution();
+        int[] arr = {-1,0,3,5,9,12};
+        System.out.println(s.search(arr, 13));
+        System.out.println(arr.length);
+    }
 }
