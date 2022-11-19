@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class BubbleSort {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the number elements to be in the list :- ");
+        System.out.println("Enter the number elements to be in the list :-");
         int l = in.nextInt();
         int[] a = new int[l];
         int i, j, t;
